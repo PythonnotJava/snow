@@ -98,7 +98,7 @@ def fit():
             width = bg_image.width()
             height = bg_image.height()
             # 获得比例
-            k = width/width
+            k = width/height
             if width > 600 and height > 400:
                 config['width'] = 600
                 config['height'] = 400
